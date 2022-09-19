@@ -1,0 +1,55 @@
+
+
+.card {
+background: #E28625;
+border-radius: 8px;
+height: 500px;
+width: 307px;
+position: relative;
+}
+
+.image-container {
+    position: absolute;
+    top: 48px;
+    left: 48px;
+}
+
+.card-title {
+    position: absolute;
+    left: 48px;
+    top: 128px;
+    width: 99px;
+    height: 48px;
+    font-size: 40px;
+    color: #F2F2F2;
+    margin-bottom: 25px;
+}
+
+.card-text {
+    position: absolute;
+    left: 47.5px;
+    top: 196px;
+    width: 212px;
+    height: 125px;  
+    color: #FFF;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+button {
+    cursor: pointer;
+    position: absolute;
+    left: 48px;
+    bottom: 48px;
+    width: 146px;
+    height: 48px;  
+    border-radius: 25px;
+    border: none;
+    color: #E28625;
+}
+
+button:hover {
+    background-color: #E28625;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
