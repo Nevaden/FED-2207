@@ -2,7 +2,8 @@
 
 .card {
     background: #004140;
-    border-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
     height: 500px;
     width: 307px;
     position: relative;
@@ -34,6 +35,8 @@
         color: #FFF;
         font-size: 15px;
         line-height: 25px;
+        opacity: 0.75;
+        mix-blend-mode: normal;
     }
     
     button {
@@ -50,6 +53,6 @@
 
     button:hover {
         background-color: #004140;
-        border: 2px solid #FFFFFF;
-        color: #FFFFFF;
+        border: 2px solid #FFF;
+        color: #FFF;
     }

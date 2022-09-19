@@ -34,6 +34,8 @@ position: relative;
     color: #FFF;
     font-size: 15px;
     line-height: 25px;
+    opacity: 0.75;
+    mix-blend-mode: normal;
 }
 
 button {
@@ -50,6 +52,6 @@ button {
 
 button:hover {
     background-color: #E28625;
-    border: 2px solid #FFFFFF;
-    color: #FFFFFF;
+    border: 2px solid #FFF;
+    color: #FFF;
 }
