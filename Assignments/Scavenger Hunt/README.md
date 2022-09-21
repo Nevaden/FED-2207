@@ -1,0 +1,95 @@
+https://angular.io/docs
+
+https://rxjs.dev/guide/observable
+
+What Is Angular?
+    As I have built and worked with frameworks the last 10 years putting this in easy words is errrrr.
+    Angular is a development framework.
+    Frameworks have the benefit of standard strucures and methods for common functionailty with the goal of making these eaiser to quickly implement and reduce manual work and rework.
+    Higher level, help make it easier to build out a site modular-ly(?).  
+
+What are Services and How Do We Use Them?
+    I mean this is perfect so I will put it here. 
+    Angular services are objects that get instantiated just once during the lifetime of an application. They contain methods that maintain data throughout the life of an application, i.e., data is available all the time. 
+    So basically these are our created/instantiated services that hold our data (be it data, buisness logic, or models.)
+    Use with the @injectible decorator. The decorator tells angular that the class is a service and can be injected into components that need that service.
+
+ What Is Dependency Injection?
+    Yooo, this can be the very next thing from the previous question, you can ALSO inject that service/class as a dependency.
+    After you delcare a server as injectable and add it to the providers array in either the @NgModule or @Component level.
+    Then that dependancy will be avaiable to the component (in all places) it was injected to.0
+
+What Are Directives?
+    There are both structural and Attribute directives.
+    Structural Directives:
+    Like in our examples on Wednesday, these are for having logic directily in our html, which is awesome. notate with the * character so *NgFor or *NgIf.
+    Wouldl ike to mention as an aside the shorthand notation is way more understandable IMHO. also just seems logical though I understand the longform '<ng-template>'
+    being more like the container and creating what is inside of it. Where as the short form you are using at the level you are wanting to make your inserts/content.
+
+    Attribute Directives allow us to vhange the appearance or behavior of DOM elements and angular components.
+    You can add these like you would add an attribute to an HTML tag, as well as using listenerEvents  (@HostListener) for various such as mouse hovers(mouse enter).
+
+What Are Pipes?
+    Pipes are essentially reusable functions for transforming data.
+	You can use these for simple methods like toUpperCase or you can use theses for more advanced methods/functions like filtering out objects/items from an array that dont/do meet criteria.
+
+
+What is @Input and @Output Decorators? What is ViewChild?
+    @Input and @Output are Class Field Decorators which declare the type that a particular field is.
+    ViewChild is simliar to .Children[0] in that it is a getting the first child element to which is was called upon.
+
+What Are The Angular Lifecycle Hooks, and What Are They Used For?
+    A component when it is first loaded and renderd. Changes are deteted via watching databound properties and keep view updated..
+    Depending on the hook you are Initialzing Detecting or Cleanup. You can use these in w/e ways make sense for your needs.  Example would be SpyDirective directive to log the id of the item.
+
+What Is Angular Routing?
+    The cool part. The basic(main?) helper for hiding or unhiding our pages(since we are never 'LOADING' a new page). So wee have our pretty and fast SPA.
+    The routing is handling these view changes.
+
+How Can We Nest Routes?
+    children?: Routes !!!  Use this route property for nested routes :D.
+
+How Can We Guard Routes From Unauthorized Access?
+    We can use the AuthGuard service to limit access to authorized users.
+
+What Is Lazy Loading, And How Can We Implement This?
+    Loading elements as they are needed like when scrolling to the bottom of a page that then loads new data. or interacting with a particualr area of a page(only load when you need to, keep data usage down.)
+
+What Are The Two Types Of Forms In Angular, and How Are They Different?
+    Reactive and Dynamic forms.
+    Reactive forms         - Provide direct, explicit access to the underlying forms object model. Compared to template-driven forms, they are more robust: they're more scalable, reusable, and testable. If forms are a key part of your application, or you're already using reactive patterns for building your application, use reactive forms. 
+    Building data driven forms would use this approach. If your forms are going to change.
+    Properties: {Setup of form model: Explicit, created in component class; Data model: Structured and immutable; Data flow: Synchronous; Form validation: Functions}
+
+    template-driven forms  - Rely on directives in the template to create and manipulate the underlying object model. They are useful for adding a simple form to an app, such as an email list signup form. They're straightforward to add to an app, but they don't scale as well as reactive forms. If you have very basic form requirements and logic that can be managed solely in the template, template-driven forms could be a good fit.
+    Anything at or very near a STATIC level of change.
+    Properties: {Setup of form model: Implicit, created by directives; Data model: Unstructured and mutable; Data flow: Asynchronous; Form validation: Directives}
+
+What Is The HTTP Client Module?
+    A service module for performing HTTP requests. Able to view/edit the request and thier responses.
+
+
+
+<!-- Section saved for next week as INSTRUCTED! caps are fun. -->
+//Save this section until next week. 8/29/22
+For This Section, Use The RXJS Documentation: https://rxjs.dev/guide/observable
+
+What Is RXJS?
+    
+
+ What Are Observables? (Refer to the 2nd link provided above)
+    
+
+What Are Operators?
+    
+
+What Are Subjects and Behavioral Subjects
+
+
+
+
+
+
+
+
+
