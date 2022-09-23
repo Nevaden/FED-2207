@@ -1,7 +1,26 @@
-<a href="">About</a>
-<a href="">Location</a>
-<a href="">Careers</a>
-
-
-
-Get Scootin
+<!-- <div class="backDrop displayNone" id="backDrop" (click)="toggleNavModal()" class="displayNone"></div> -->
+<div class="navContainer grid-container">
+  <button
+    class="hamburger grid-item displayBlock"
+    id="hamburger"
+    (click)="toggleNavModal()"
+  ></button>
+  <button
+    class="closeButton grid-item displayNone"
+    id="closeButton"
+    (click)="toggleNavModal()"
+  ></button>
+  <a class="navLogo grid-item" routerLink="/home">
+    <img src="../../../assets/logo.svg" alt="" />
+  </a>
+</div>
+<div class="backDrop displayNone" id="backDrop" (click)="toggleNavModal()">
+  <section class="navModal displayNone" id="navModal">
+    <nav class="navItems" (click)="toggleNavModal()">
+      <a routerLink="/about" class="navItem">About</a>
+      <a routerLink="/locations" class="navItem">Location</a>
+      <a routerLink="/careers" class="navItem">Careers</a>
+    </nav>
+    <button class="modalButton">Get Scootin</button>
+  </section>
+</div>

@@ -9,6 +9,7 @@ import { CareersComponent } from './Components/careers/careers.component';
 import { LocationsComponent } from './Components/locations/locations.component';
 import { NavComponent } from './Components/nav/nav.component';
 import { FooterComponent } from './Components/footer/footer.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FooterComponent } from './Components/footer/footer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

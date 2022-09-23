@@ -84,6 +84,9 @@ What Is RXJS?
     
 
  What Are Observables? (Refer to the 2nd link provided above)
+ promise emit a single value
+ observable can handle multipel streams of data, Observables can be canceled.
+ Observables work with operators.
     
 
 What Are Operators?
