@@ -69,6 +69,12 @@ What Is The HTTP Client Module?
     A service module for performing HTTP requests. Able to view/edit the request and thier responses.
 
 
+Four types of DataBinding?
+String Interpolation
+Property Binding
+Event Binding
+Two-way data binding
+
 
 <!-- Section saved for next week as INSTRUCTED! caps are fun. -->
 //Save this section until next week. 8/29/22

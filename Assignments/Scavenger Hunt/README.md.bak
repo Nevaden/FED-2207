@@ -31,6 +31,7 @@ What Are Directives?
 
 What Are Pipes?
     Pipes are essentially reusable functions for transforming data.
+	You can use these for simple methods like toUpperCase or you can use theses for more advanced methods/functions like filtering out objects/items from an array that dont/do meet criteria.
 
 
 What is @Input and @Output Decorators? What is ViewChild?
