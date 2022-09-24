@@ -10,6 +10,8 @@ import { LocationsComponent } from './Components/locations/locations.component';
 import { NavComponent } from './Components/nav/nav.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SmallBlurbsComponent } from './Components/Home/small-blurbs/small-blurbs.component';
+import { LargeBlurbsComponent } from './Components/Home/large-blurbs/large-blurbs.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     CareersComponent,
     LocationsComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    SmallBlurbsComponent,
+    LargeBlurbsComponent
   ],
   imports: [
     BrowserModule,

@@ -1,10 +1,80 @@
 
 
 
+.headerSection{
+    height: 650px;
+    background-image: url(../../../assets/images/home-hero-mobile.jpg);
+    /* background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    background-repeat:round;
+ 
+}
+h1{
+    margin-top: 114px;
+    width: 311px;
+    height: 120px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 40px;
+    /* or 100% */
+
+    text-align: center;
+    letter-spacing: -1.78571px;
+
+    color: #FFFFFF;
+    align-self: center;
+}
+
+p{
+    font-family: 'Lexend Deca';
+    width: 311px;
+    height: 125px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+    text-align: center;
+    margin-top: 24px;
+    color: #FFFFFF;
+    align-self: center;
+}
 
 
 
 
+
+ button{
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    text-align: center;
+    color: #FFFFFF;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    align-self: center;
+    margin-top: 48px;
+    margin-bottom: 6px;
+    
+}
+.arrowContainer{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    bottom: 10px;
+}
+
+.arrowContainer img {
+    position: relative;
+    left: -240px;
+}
 
 @media only screen and (min-width: 767px) {}
 @media only screen and (min-width: 1200px) {}
