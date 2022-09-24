@@ -110,3 +110,87 @@ h2 {
     justify-content: center;
     gap: 24px;
 }
+
+@media only screen and (min-width: 767px) {
+    .appStoreSignUp{
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h2 {
+        margin-top: 62px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -2.14286px;
+        z-index: -8;
+        color: #FFFFFF;
+        width: 457px;
+    }
+    .appIcons{
+        margin-bottom: 50px;
+        margin-top: 40px;
+        overflow-y: hidden;
+    }
+
+    .footerNav{
+        display: flex;
+        height: 96px;
+        flex-direction: row;
+        align-items: center;
+    }
+    .navLinks{
+        display: flex;
+        flex-direction: row;
+    }
+    .navLinks a:first-child{
+        margin-left: 58px;
+    }
+    .logoContainer{
+        margin-top: 0;
+        margin-left: 39px;
+    }
+    .logo{
+        margin-top: 0;
+    }
+    .navLinks{
+        margin-top: 0;
+    }
+    .socicalsContainer{
+        margin-left: auto;
+        margin-top: 0;
+        margin-right: 40px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .appStoreSignUp{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    h2{
+        height: 96px;
+        margin-top: 0;
+        margin-left: 165px;
+        text-align: left;
+    }
+
+    .appIcons{
+        margin-right: 165px;
+    }
+
+    .logoContainer{
+        margin-left: 168px;
+    }
+    
+    .socicalsContainer{
+        margin-right: 165px;
+    }
+}
+
+
