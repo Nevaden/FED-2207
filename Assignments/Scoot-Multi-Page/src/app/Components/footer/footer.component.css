@@ -1,0 +1,112 @@
+
+h2 {
+    margin-top: 88px;
+    color:#FFFFFF;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+.appStoreSignUp{
+    height: 320px;
+    background-color: #495567;
+    background-repeat: no-repeat;
+    position: relative;
+    overflow-y: hidden;
+    z-index: -1;
+}
+.appIcons{
+    margin-top: 40px;
+    display: flex;
+    gap: 13px;
+    justify-content: center;
+    top: 192px;
+}
+
+.appStore, .googleStore {
+    border-radius: 4px;
+}
+.circles{
+    position: absolute;
+    width: 1153px;
+    height: 347px;
+    left: -1008px;
+    bottom: -174px;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    overflow-y: hidden;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.circles2{
+    position: absolute;
+    width: 1153px;
+    height: 347px;
+    left: 212px;
+    bottom: -174px;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+    overflow-y: hidden;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.footerNav {
+    background-color: #333A44;
+    height: 438px;
+}
+
+.socialFacebook, .socialInstagram{
+    width: 24px;
+    height:24px;
+}
+
+.socialTwitter{
+    height:19.5px;
+}
+
+.appStore{
+    height: 40px;
+    width: 114px;
+}
+
+.googleStore{
+    height: 40px;
+    width: 130px;  
+}
+
+
+.logoContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    margin-top: 64px;
+}
+
+.logoContainer svg path {
+    fill:#FFFFFF;
+}
+.navLinks{
+    display: flex;
+    flex-direction: column;
+    margin-top: 41px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.navLink{
+    height:25px;
+    text-decoration: none;
+    color: #939CAA;
+    font-size: 15px;
+    font-family: 'Space Mono', monospace;
+}
+
+.socicalsContainer{
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}

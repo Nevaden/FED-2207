@@ -50,8 +50,7 @@
         width: 70vw;
         flex-direction: column;
         justify-content: space-between;
-        /* left: 0;
-        top: 0; */
+
     }
 
     .navLogo img {
@@ -65,9 +64,6 @@
         flex-direction: column;
         margin: 64px 0px 24px 32px;
         
-        /* margin-left: 32px; */
-        /* margin-top: 64px;
-        margin-bottom: 24px;  */
     }
 
     .navItem {
@@ -95,6 +91,7 @@
         height: 16px;
         width: 20px;
         border: none;
+        background-color: #FFF;
     }
 
     .closeButton{
