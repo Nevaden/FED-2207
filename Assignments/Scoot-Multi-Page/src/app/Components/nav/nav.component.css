@@ -1,14 +1,7 @@
-.navContainer{
-    background-color: #FFF;
-    height: 64px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
-}
 
-.navLogo{
-    justify-self: center;
-}
+
+
+
 .displayNone {
     display: none;
 }
@@ -20,95 +13,160 @@
     display: block;
 }
 
- .backDrop{
+.navContainer{
+    background-color: #FFF;
+    height: 64px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}
+.navLogo{
+    justify-self: center;
+}
+.backDrop{
     height: 104vh;
     top: 64px;
     width: 100vw;
     background-color: hsla(0, 0%, 0%, 0.401);
     position: fixed;
 } 
+.navContainer{
+    position: fixed;
+    top:0;
+    width: 100vw;
+    
+}
+.navModal{
+    background: #333A44;
+    position: fixed !important;
+    top:64px;
 
+    border-width: 10px;
+    position: absolute;
+    height: 91vh;
+    width: 70vw;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.navLogo img {
+    height: 20px ;
+    width: 75.5px;
+}
+
+
+.navItems{
+    display: flex;
+    flex-direction: column;
+    margin: 64px 0px 24px 32px;
+    
+}
+
+.navItem {
+    font-family: 'Space Mono', monospace;
+    margin-bottom: 24px;
+    text-decoration: none;
+    color: #E5ECF4;
+    font-size: 18px;
+}
+
+.modalButton{
+    background-color: #FCB72B;
+    height: 53px;
+    width: 192px;
+    align-self: center;
+    margin-bottom: 24px;
+}
+
+img {
+    display: block;
+}
+
+.hamburger {
+    background-image: url(../../../assets/icons/hamburger.svg);
+  
+    height: 16px;
+    width: 20px;
+    border: none;
+    background-color: #FFF;
+}
+
+.closeButton{
+    background-color: #FFF;
+    background-image: url(../../../assets/icons/close.svg);
+    height: 18px;
+    width: 18px;
+    border: none;
+}
+.grid-container .hamburger {
+    margin-left: 28px;
+}
+.grid-container .closeButton {
+    margin-left: 33px;
+}
  
+.deskNav{
+    display: none;
+}
 
-
-@media only screen and (max-width: 767px) {
-
-    .navContainer{
-        position: fixed;
-        top:0;
-        width: 100vw;
-        
-    }
-    .navModal{
-        background: #333A44;
-        position: fixed !important;
-        top:64px;
-
-        border-width: 10px;
-        position: absolute;
-        height: 91vh;
-        width: 70vw;
-        flex-direction: column;
-        justify-content: space-between;
-
-    }
-
-    .navLogo img {
-        height: 20px ;
-        width: 75.5px;
-    }
-
-
-    .navItems{
+@media only screen and (min-width: 767px) {
+    
+    .deskNav{
         display: flex;
-        flex-direction: column;
-        margin: 64px 0px 24px 32px;
-        
+        height: 96px;
+        align-items: center;
+    }
+    .deskNav img{
+        height: 29px;
+        width: 108px;
+        margin-left: 39px;
+    }
+    .mobile-Nav{
+        display: none!important;
+    } 
+
+
+    .bigNavItems{
+        display: flex;
+        gap:32px 
+    } 
+    .bigNavItems a:first-child{
+        margin-left: 58px;
     }
 
-    .navItem {
-        font-family: 'Space Mono', monospace;
-        margin-bottom: 24px;
+    .bigNavItem{
         text-decoration: none;
-        color: #E5ECF4;
-        font-size: 18px;
+        color: #939CAA;
+        font-size: 15px;
     }
 
-    .modalButton{
-        background-color: #FCB72B;
+    .navItemBigScoot{
+        margin-left: auto;
+        margin-right: 40px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        text-align: center;
+        border: none;
+        background: #FCB72B;
         height: 53px;
-        width: 192px;
-        align-self: center;
-        margin-bottom: 24px;
-    }
-
-    img {
-        display: block;
-    }
-
-    .hamburger {
-        background-image: url(../../../assets/icons/hamburger.svg);
-        display: block;
-        height: 16px;
-        width: 20px;
-        border: none;
-        background-color: #FFF;
-    }
-
-    .closeButton{
-        background-color: #FFF;
-        background-image: url(../../../assets/icons/close.svg);
-        height: 18px;
-        width: 18px;
-        border: none;
-    }
-    .grid-container .hamburger {
-        margin-left: 28px;
-    }
-    .grid-container .closeButton {
-        margin-left: 33px;
+        width: 180px;
+        color: #FFF;
     }
 
   }
 
 
+  @media only screen and (min-width: 1200px) {
+    .deskNav img{
+        height: 29px;
+        width: 108px;
+        margin-left: 169px;
+    }
+    .navItemBigScoot{
+        margin-right: 165px;
+    }
+  }
