@@ -111,16 +111,18 @@ img {
 }
 
 @media only screen and (min-width: 767px) {
-    
+
     .deskNav{
         display: flex;
         height: 96px;
         align-items: center;
     }
+
     .deskNav img{
         height: 29px;
         width: 108px;
         margin-left: 39px;
+        cursor: pointer;
     }
     .mobile-Nav{
         display: none!important;
@@ -169,4 +171,10 @@ img {
     .navItemBigScoot{
         margin-right: 165px;
     }
+    .navItemBigScoot:hover{
+        border: 3px solid #FCB72B;
+        background-color: #FFF;
+        color: #FCB72B;
+    }
+
   }
