@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './Components/Home/home.component';
@@ -12,6 +13,7 @@ import { FooterComponent } from './Components/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SmallBlurbsComponent } from './Components/Home/small-blurbs/small-blurbs.component';
 import { LargeBlurbsComponent } from './Components/Home/large-blurbs/large-blurbs.component';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +30,7 @@ import { LargeBlurbsComponent } from './Components/Home/large-blurbs/large-blurb
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

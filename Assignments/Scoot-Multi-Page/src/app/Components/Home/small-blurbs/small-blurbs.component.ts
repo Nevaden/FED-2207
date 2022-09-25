@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { smallBlurbs } from 'src/app/Data/smallBlurbs';
 
 @Component({
   selector: 'app-small-blurbs',
@@ -6,10 +7,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./small-blurbs.component.css']
 })
 export class SmallBlurbsComponent implements OnInit {
+  blurbData = smallBlurbs;
 
   constructor() { }
 
   ngOnInit(): void {
+    console.log(this.blurbData)
   }
 
 }

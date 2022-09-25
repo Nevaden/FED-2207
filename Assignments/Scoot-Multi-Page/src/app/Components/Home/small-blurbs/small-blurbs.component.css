@@ -1,0 +1,55 @@
+.sectionConatiner{
+    background-color: #FFF;
+    margin-top: 120px;
+}
+
+.blurbCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 48px ;
+}
+
+.blurbCard img{
+    height: 56px;
+    width: 56px;
+    margin-bottom: 24px;
+}
+
+.blurbCard h4{
+    width: 83%;
+    height: 28px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    /* identical to box height, or 140% */
+
+    text-align: center;
+    letter-spacing: -0.892857px;
+
+    color: #495567;
+    margin-bottom: 24px;
+}   
+
+.blurbCard p{
+    width: 83%;
+    height: 100px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+    text-align: center;
+
+    color: #939CAA;
+}
+
+.blubTextContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

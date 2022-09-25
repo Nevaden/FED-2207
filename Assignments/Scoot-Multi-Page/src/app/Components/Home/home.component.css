@@ -2,17 +2,18 @@
 
 
 .headerSection{
-    height: 650px;
+    /* height: 650px; */
     background-image: url(../../../assets/images/home-hero-mobile.jpg);
     /* background-size: cover; */
     display: flex;
     flex-direction: column;
     background-repeat:round;
- 
+    position: relative;
 }
+
 h1{
     margin-top: 114px;
-    width: 311px;
+    width: 83%;
     height: 120px;
     font-family: 'Space Mono';
     font-style: normal;
@@ -27,10 +28,14 @@ h1{
     color: #FFFFFF;
     align-self: center;
 }
+.blurbText{
+    display: flex;
+    flex-direction: column;
+}
 
 p{
     font-family: 'Lexend Deca';
-    width: 311px;
+    width: 83%;
     height: 125px;
     font-style: normal;
     font-weight: 400;
@@ -62,8 +67,8 @@ p{
     align-self: center;
     margin-top: 48px;
     margin-bottom: 6px;
-    
 }
+
 .arrowContainer{
     display: flex;
     flex-direction: column;
@@ -75,9 +80,174 @@ p{
     position: relative;
     left: -240px;
 }
+.desktopArrow, .desktopArrow2{
+    display:none;
+}
+.whiteCircles{
+    display:none;
+}
 
-@media only screen and (min-width: 767px) {}
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 767px) {
+    .headerSection{
+ 
+        background-image: url(../../../assets/images/home-hero-tablet.jpg);
+        /* background-size: cover; */
+        display: flex;
+        flex-direction: column;
+        background-repeat:round;
+    }
+    h1{
+        margin-top: 114px;
+        width: 74%;
+        height: 120px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        text-align: center;
+        letter-spacing: -1.78571px;
+        color: #FFFFFF;
+        align-self: center;
+    }
+    p{
+        font-family: 'Lexend Deca';
+        width: 83%;
+        height: 75px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 17px;
+        line-height: 25px;
+        /* or 167% */
+    
+        text-align: center;
+        margin-top: 24px;
+        color: #FFFFFF;
+        align-self: center;
+        margin-bottom: 32px;
+    }
+    button{
+        width: 180px;
+        height: 53px;
+        background: #FCB72B;
+        text-align: center;
+        color: #FFFFFF;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        align-self: center;
+        margin-top: 32px;
+        margin-bottom: 40px;
+    }
+
+    .arrowContainer img {
+        position: relative;
+        left: -118px;
+        margin-bottom: 40px;
+        height: 138px;
+        width: 447px;
+    }
+    .whiteCircles{
+        display: block;
+        position: absolute;
+        height: 63px;
+        width: 234px;
+        right: -32px;
+        bottom: 65px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .headerSection{
+        display: block;
+        position: relative;
+        background-image: url(../../../assets/images/home-hero-desktop.jpg);
+    }
+    h1{
+        width: 500px;
+        /* width: 74%; */
+        height: 112px;
+        left: 165px;
+        /* top: 249px; */
+        
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        /* or 100% */
+        
+        letter-spacing: -2.5px;
+        
+        color: #FFFFFF;
+        position: relative;
+        margin-top: 153px;
+        text-align: left;
+    }
+
+    .blurbText{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 405px;
+        /* height: 200px; */
+        left: 250px;
+        margin: 0;
+    }
+    .blurbText p{
+        font-size: 15px;
+        line-height: 25px;
+        text-align: left;
+        height: 100px;
+        overflow-wrap: break-word;
+        width: 381px;
+        margin-top: 40px;
+    }
+    .blurbText button{
+        align-self: baseline;
+        width: 180px;
+        height: 53px;
+        margin-bottom: 157px;
+        border: none;
+    }
+    .arrowContainer{
+        display: none;
+    }
+    .arrowContainer img {
+        display: none;
+    }
+
+    .desktopArrow{
+        display: block;
+        position: absolute;
+        left: -251px;
+        top: 360px;
+        transform: matrix(-1, 0, 0, 1, 0, 0);
+    }
+    .desktopArrow2{
+        display: block;
+        position: absolute;
+        left: 660px;
+        top: 360px;
+        height: 138px;
+        width:447px;
+
+    }
+    .whiteCircles{
+        display: block;
+        position: absolute;
+        height: 63px;
+        width: 234px;
+        right: -32px;
+        bottom: 196px;
+    }
+    .blurbText button:hover{
+        background-color: #FFFFFF;
+        color:#FCB72B;
+        border: 3px solid #FCB72B;
+    }
+}
 
 /* margin for sizing/positioning of mobile nav */
 @media only screen and (max-width: 767px) {
