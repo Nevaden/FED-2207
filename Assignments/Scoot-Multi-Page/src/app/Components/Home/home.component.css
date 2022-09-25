@@ -164,7 +164,7 @@ p{
         height: 683px; 
         position: relative;
         background-image: url(../../../assets/images/home-hero-desktop.jpg);
-        overflow-y: hidden;
+        overflow: hidden;
     }
     h1{
         width: 500px;

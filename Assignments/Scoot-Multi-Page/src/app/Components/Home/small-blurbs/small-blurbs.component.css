@@ -2,6 +2,9 @@
     background-color: #FFF;
     margin-top: 120px;
 }
+app-small-blurbs, app-large-blurbs, app-footer{
+    overflow: hidden;
+}
 
 .blurbCard{
     display: flex;
@@ -58,6 +61,11 @@
     .sectionConatiner{
         background-color: #FFF;
         margin-top: 0;
+        position: relative;
+        
+    }
+    .headerSection{
+        overflow: hidden;
     }
 
     .moreContainerPlease{
@@ -130,18 +138,19 @@
 @media only screen and (min-width: 1200px) {
 
 
-    .sectionConatiner{
 
-    }
 
     .moreContainerPlease{
         flex-direction: row;
         margin-left: 165px;
+        margin-top: 160px;
     }
 
     .blurbCard{
         flex-direction: column;
-
+        width: 414px;
+        position: relative;
+        left: 0px;
     }
 
     .blubTextContainer{
@@ -152,6 +161,12 @@
 
 
     .greyLine{
-
+        position: absolute;
+        width: 1068px;
+        height: 1px;
+        left: 0px;
+        border: 15px solid #E5ECF4;
+        top: 194px;
+        z-index: 2;
     }
 }
