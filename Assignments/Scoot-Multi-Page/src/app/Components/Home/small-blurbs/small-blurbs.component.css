@@ -53,3 +53,105 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media only screen and (min-width: 767px) {
+    .sectionConatiner{
+        background-color: #FFF;
+        margin-top: 0;
+    }
+
+    .moreContainerPlease{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        margin-top: 122px;
+    }
+
+    .blurbCard{
+        flex-direction: row;
+        align-items: flex-start;
+        text-align: left;  
+        position: relative;
+        left: 96px;
+        /* top: 122px; */
+    }
+
+    .blurbCard img{
+        position: relative;
+        height: 96px;
+        width: 96px;
+        z-index: 3; 
+    }
+
+
+    .blubTextContainer{
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 398px;
+        margin-left: 79px;
+        
+    }
+
+    .blubTextContainer h4 {
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        text-align: left;
+        /* identical to box height, or 117% */
+
+        letter-spacing: -1.07143px;
+
+        color: #495567;
+        }
+
+        .blubTextContainer p{
+            text-align: left;
+            font-family: 'Lexend Deca';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 25px;
+            color: #939CAA;
+        }
+
+        .greyLine{
+            position: absolute;
+            width: 1px;
+            height: 568px;
+            left: 129px;
+            border: 15px solid #E5ECF4;
+            z-index: 2;
+        }
+}
+
+@media only screen and (min-width: 1200px) {
+
+
+    .sectionConatiner{
+
+    }
+
+    .moreContainerPlease{
+        flex-direction: row;
+        margin-left: 165px;
+    }
+
+    .blurbCard{
+        flex-direction: column;
+
+    }
+
+    .blubTextContainer{
+        align-items: baseline;
+        margin: 0;
+        overflow: visible;
+    }
+
+
+    .greyLine{
+
+    }
+}

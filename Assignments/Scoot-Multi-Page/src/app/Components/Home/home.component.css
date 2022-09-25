@@ -2,7 +2,7 @@
 
 
 .headerSection{
-    /* height: 650px; */
+    /* height: 750px; */
     background-image: url(../../../assets/images/home-hero-mobile.jpg);
     /* background-size: cover; */
     display: flex;
@@ -161,8 +161,10 @@ p{
 @media only screen and (min-width: 1200px) {
     .headerSection{
         display: block;
+        height: 683px; 
         position: relative;
         background-image: url(../../../assets/images/home-hero-desktop.jpg);
+        overflow-y: hidden;
     }
     h1{
         width: 500px;
@@ -230,8 +232,8 @@ p{
         position: absolute;
         left: 660px;
         top: 360px;
-        height: 138px;
-        width:447px;
+        height: 20.2%;
+        width: 31.28%;
 
     }
     .whiteCircles{
