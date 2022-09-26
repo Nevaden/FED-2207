@@ -2,8 +2,11 @@
 <section class="sectionConatiner">
 
   <section *ngFor="let blurb of blurbData let i = index" >
-    <Article class="blurbCard">
-      <img class="cardImage" src={{blurb.imgSrc}} alt="" />
+    <Article [class]="'blurbCard'+(i)">
+      <div class="imagesContainer">
+      <img [class]="'largeGreyCircle'+(i)" src="../../../../assets/patterns/circle.svg" alt="">
+      <img [class]="'cardImage'+(i)" src={{blurb.imgSrc}} alt="" />
+      </div>
       <img [class]="'arrow'+(i)" src={{blurb.arrowSrc}} alt="" />
       <div class="blubTextContainer" >
         <h3>{{blurb.cardTitle}}</h3>
