@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-city-not-listed',
   templateUrl: './city-not-listed.component.html',
