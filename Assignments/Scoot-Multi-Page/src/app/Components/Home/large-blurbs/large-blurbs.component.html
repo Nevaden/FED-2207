@@ -1,6 +1,4 @@
-
 <section class="sectionConatiner">
-
   <section *ngFor="let blurb of blurbData let i = index" >
     <Article [class]="'blurbCard'+(i)">
       <div class="imagesContainer">
@@ -13,10 +11,6 @@
         <p>{{blurb.cardText}}</p>
         <button>Learn More</button>
       </div>
-  </Article>
+    </Article>
   </section>
 </section>
-
-
-
-  

@@ -1,0 +1,19 @@
+<h2 class="sectionTitle">Why join us?</h2>
+
+<section class="sectionContainer">
+  
+  <article class="cardContainer" *ngFor="let card of blurbArray let i = index">
+    <div class="imageContainer">
+        <img class="cardImage" src={{card.cardImage}} alt="">
+        <div class="cardNumber">
+            <p>0{{i}}</p>
+        </div>
+
+    </div>
+
+    <div class="textConatiner">
+      <h3 class="cardTitle">{{card.cardTitle}}</h3>
+      <p class="cardText">{{card.cardText}}</p>
+    </div>
+  </article>
+</section>

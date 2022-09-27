@@ -49,8 +49,6 @@ button{
     font-weight: 700;
     font-size: 15px;
     line-height: 25px;
-    /* identical to box height, or 167% */
-
     text-align: center;
     border: none;
     color: #FFFFFF;
@@ -70,15 +68,11 @@ button{
         font-weight: 700;
         font-size: 48px;
         line-height: 48px;
-        /* or 100% */
-        
         text-align: center;
         letter-spacing: -2.14286px;
         width: 457px;
-        
         color: #495567;
         margin-bottom: 40px;
-        
     }
 
     p{
@@ -87,10 +81,7 @@ button{
         font-weight: 400;
         font-size: 15px;
         line-height: 25px;
-        /* or 167% */
-
         text-align: center;
-
         color: #939CAA;
         margin-bottom: 40px;
     }
@@ -112,10 +103,7 @@ button{
         font-size: 48px;
         line-height: 48px;
         width: 351px;
-        /* or 100% */
-
         letter-spacing: -2.14286px;
-
         color: #495567;
         text-align: left;
     }
@@ -126,11 +114,8 @@ button{
         font-size: 15px;
         line-height: 25px;
         width: 445px;
-        /* or 167% */
         text-align: left;
-
         color: #939CAA;
-
     }
 
     button:hover{

@@ -1,0 +1,133 @@
+.sectionContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.jobCard{
+    width: 311px;
+    height: 190px;
+    background: #F2F5F9;
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textContainer{
+    
+    width: 247px;
+
+}
+
+.jobCard button{
+    width: 247px;
+    height: 53px;
+    background: #FCB72B;
+    border:none;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.textContainer h5, .textContainer p{
+    text-align: center;
+    overflow-y: hidden;
+}
+
+
+
+.textContainer h5{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.803571px; 
+    color: #495567;
+}
+
+.textContainer p{
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #495567;
+}
+@media only screen and (min-width: 767px) {
+
+    .jobCard{
+        width: 689px;
+        height: 128px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .textContainer{
+        height: 61px;
+        width: 314px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+   .textContainer h5{
+        text-align: left;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        letter-spacing: -1.07143px;
+        color: #495567;
+    }
+
+    .textContainer p{
+        text-align: left;
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        color: #495567;
+    }
+
+    .jobCard button{
+        height: 53px;
+        width: 180px;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 25px;
+        /* identical to box height, or 167% */
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .jobCard{
+        width: 1110px;
+        height: 128px;
+        margin-bottom: 24px;
+    }
+
+    .textContainer{
+        width: 650px;
+        height: 61px;
+    }
+    .jobCard button:hover{
+        color: #FCB72B;
+        border: 3px solid #FCB72B;
+        background-color: #FFFFFF;
+    }
+}

@@ -4,6 +4,9 @@
         margin:0;
     }
 }  */
+.componentSection{
+    margin-top: 72px;
+}
 
 .blurbCard{
     display: flex;
@@ -76,20 +79,14 @@
 @media only screen and (min-width: 767px) {
 
 .sectionConatiner{
-    margin-top: 72px;
+    margin-top: 144px;
     position: relative;
 }
 .blurbCard{
     flex-direction: column;
     justify-content: space-around;
 }
-/* .imagesContainer{
-    display: flex;
-    flex-direction: row-reverse;
-    position: relative;
-    width: 100vw;
-    justify-content: center;
-} */
+
 .largeGreyCircle{
     display: block;
     height: 445px;
@@ -100,6 +97,7 @@
 .cardImage{
     height: 445px;
     width: 445px;
+    margin-bottom: 56px;
 }
 .arrow{
     top: 255px;
@@ -132,21 +130,23 @@
     }
 }
 @media only screen and (min-width: 1200px) {
+    .sectionConatiner{
+        margin-top: 120px;
+
+    }
     .blurbCard{
         flex-direction: row-reverse;
         justify-content: space-around;
-        
     }
-        .arrow{
-            top: 257px;
-            width: 59%;
-            left: 54%;
-         }
-         .largeGreyCircle{
-            right: -380px;
-         }
-         .cardImage{
-            margin-bottom: 120px;
-         }
+    .arrow{
+        top: 257px;
+        width: 59%;
+        left: 54%;
+    }
+    .largeGreyCircle{
+        right: -380px;
+    }
+    .cardImage{
+        margin-bottom: 120px;
+    }
 }
-

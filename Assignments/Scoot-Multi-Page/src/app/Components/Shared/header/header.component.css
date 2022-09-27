@@ -2,7 +2,7 @@ section{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 200px;
+    height: 160px;
     margin-top: 64px;
 }
 h2{
@@ -31,6 +31,7 @@ section {
     section{
         margin-top: 0;
         justify-content: space-between;
+        height: 200px;
     }
     h2{
         position: relative;

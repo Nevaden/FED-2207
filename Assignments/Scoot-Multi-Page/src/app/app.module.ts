@@ -17,6 +17,8 @@ import { HeaderComponent } from './Components/Shared/header/header.component';
 import { MapComponent } from './Components/locations/map/map.component';
 import { CitiesComponent } from './Components/locations/cities/cities.component';
 import { CityNotListedComponent } from './Components/locations/city-not-listed/city-not-listed.component';
+import { WhyJoinUsComponent } from './Components/Shared/why-join-us/why-join-us.component';
+import { JobOpeningsComponent } from './Components/careers/job-openings/job-openings.component';
 
 
 @NgModule({
@@ -33,7 +35,9 @@ import { CityNotListedComponent } from './Components/locations/city-not-listed/c
     HeaderComponent,
     MapComponent,
     CitiesComponent,
-    CityNotListedComponent
+    CityNotListedComponent,
+    WhyJoinUsComponent,
+    JobOpeningsComponent
   ],
   imports: [
     BrowserModule,
