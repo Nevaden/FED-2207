@@ -1,0 +1,141 @@
+
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2, p{
+    width:311px;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    /* or 100% */
+
+    text-align: center;
+    letter-spacing: -1.42857px;
+
+    color: #495567;
+    margin-bottom: 32px;
+}
+
+P{
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+    text-align: center;
+
+    color: #939CAA;
+    margin-bottom: 32px;
+}
+
+button{
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+    border: none;
+    color: #FFFFFF;
+    margin-bottom: 72px;
+}
+
+@media only screen and (min-width: 767px) {
+    h2, p{
+        width:573px;
+        text-align: center;
+    }
+
+    h2{
+        font-family: 'Space Mono';
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        /* or 100% */
+        
+        text-align: center;
+        letter-spacing: -2.14286px;
+        width: 457px;
+        
+        color: #495567;
+        margin-bottom: 40px;
+        
+    }
+
+    p{
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+
+        text-align: center;
+
+        color: #939CAA;
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    article{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 120px;
+        margin-bottom: 120px;
+    }
+
+    h2{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 48px;
+        width: 351px;
+        /* or 100% */
+
+        letter-spacing: -2.14286px;
+
+        color: #495567;
+        text-align: left;
+    }
+    p{
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        width: 445px;
+        /* or 167% */
+        text-align: left;
+
+        color: #939CAA;
+
+    }
+
+    button:hover{
+        border: 3px solid #FCB72B;
+        background-color: #FFFFFF;
+        color: #FCB72B;
+    }
+}
