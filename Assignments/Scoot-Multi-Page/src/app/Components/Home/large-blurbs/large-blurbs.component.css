@@ -43,13 +43,13 @@
     margin-bottom: 56px;
 }
 
-.blubTextContainer{
+.blurbTextContainer{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.blubTextContainer h3{
+.blurbTextContainer h3{
     width: 311px;
     height: 64px;
     font-family: 'Space Mono';
@@ -66,7 +66,7 @@
     margin-bottom: 32px;
 }
 
-.blubTextContainer p{
+.blurbTextContainer p{
     width: 311px;
     height: 150px;
     font-family: 'Lexend Deca';
@@ -82,7 +82,7 @@
     margin-bottom: 32px;
 }
 
-.blubTextContainer button{
+.blurbTextContainer button{
     width: 180px;
     height: 53px;
     background: #FCB72B;
@@ -169,9 +169,7 @@
 }
 
 @media only screen and (min-width: 1200px) {
-    .blubTextContainer{
 
-    }
     .blurbCard0{
         flex-direction: row-reverse;
         justify-content: space-around;
