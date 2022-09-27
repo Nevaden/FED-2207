@@ -13,6 +13,7 @@ import { FooterComponent } from './Components/footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SmallBlurbsComponent } from './Components/Home/small-blurbs/small-blurbs.component';
 import { LargeBlurbsComponent } from './Components/Home/large-blurbs/large-blurbs.component';
+import { HeaderComponent } from './Components/Shared/header/header.component';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { LargeBlurbsComponent } from './Components/Home/large-blurbs/large-blurb
     NavComponent,
     FooterComponent,
     SmallBlurbsComponent,
-    LargeBlurbsComponent
+    LargeBlurbsComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,
