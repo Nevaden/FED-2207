@@ -16,8 +16,13 @@
     flex-direction: column;
     align-items: center;
 }
+
+.imageContainer{
+    margin-bottom: -40px;
+}
 .cardImage{
     border-radius: 50%;
+
 }
 
 .cardNumber{
@@ -89,6 +94,9 @@
         overflow: visible;
         margin-bottom: 105px;
     }
+    .imageContainer{
+        margin-bottom: -75px;
+    }
     .textConatiner h3{
         width: 457px;
         text-align: center;
@@ -101,6 +109,32 @@
     }
     .cardNumber{
         margin-bottom: 55px;
+    }
+    .cardTitle{
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        /* identical to box height, or 117% */
+
+        text-align: center;
+        letter-spacing: -1.07143px;
+
+        color: #495567;
+    }
+
+    .cardText{
+        font-family: 'Lexend Deca';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        /* or 167% */
+        
+        text-align: center;
+        
+        color: #939CAA;    
     }
 }
 
