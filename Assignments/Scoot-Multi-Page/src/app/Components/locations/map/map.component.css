@@ -1,0 +1,116 @@
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapImage{
+    height: 152px;
+    width: 311px;
+    background-image: url(../../../../assets/images/world-map-mobile.png);
+    margin-top: 72px;
+    margin-bottom: 40px;
+    background-size: cover;
+}
+
+.mapPin1, .mapPin2, .mapPin3, .mapPin4{
+    display:none;
+}
+
+@media only screen and (min-width:767px) {
+
+    .mapImage{
+        height: 337px;
+        width: 689px;
+        background-image: url(../../../../assets/images/world-map-tablet.png);
+        margin-top: 144px;
+        margin-bottom: 64px;
+        background-size: cover;
+    }
+    .mapPin1, .mapPin2, .mapPin3, .mapPin4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 32px;
+        width: 120px;
+        background: #FCB72B;
+        overflow-x: visible;
+        font-family: 'Space Mono';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13px;
+        line-height: 28px;
+
+        text-align: center;
+        letter-spacing: -0.580357px;
+
+        color: #495567;
+    }
+    .mapPin1{
+        left: 103px;
+        top: 46px;
+    }
+    .mapPin1::after, .mapPin2::after, .mapPin3::after, .mapPin4::after {
+        content:'';
+        position: absolute;
+        top: 85%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        width: 0;
+        height: 0;
+        border-top: solid 15px #FCB72B;
+        border-left: solid 15px transparent;
+        border-right: solid 15px transparent;
+    }
+
+
+    .mapPin2{
+        left: 245px;
+        top: -13px;
+    }
+
+    .mapPin3{
+        left: 483px;
+        top: 101px;
+    }
+
+    .mapPin4{
+        left: 526px;
+        top: -36px;
+    }    
+
+    
+
+}
+
+@media only screen and (min-width: 1199px) {
+
+    .mapImage{
+        height: 543px;
+        width: 1110px;
+        background-image: url(../../../../assets/images/world-map-desktop.png);
+        margin-top: 120px;
+        margin-bottom: 64px;
+        background-size: cover;
+    }
+    .mapPin1{
+        left: 211px;
+        top: 96px;
+    }
+    .mapPin2{
+        left: 431px;
+        top: 30px;
+    }
+
+    .mapPin3{
+        left: 814px;
+        top: 232px;
+    }
+
+    .mapPin4{
+        left: 894px;
+        top: 24px;
+    }   
+}

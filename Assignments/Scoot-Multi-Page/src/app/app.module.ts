@@ -14,6 +14,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { SmallBlurbsComponent } from './Components/Home/small-blurbs/small-blurbs.component';
 import { LargeBlurbsComponent } from './Components/Home/large-blurbs/large-blurbs.component';
 import { HeaderComponent } from './Components/Shared/header/header.component';
+import { MapComponent } from './Components/locations/map/map.component';
+import { CitiesComponent } from './Components/locations/cities/cities.component';
+import { CityNotListedComponent } from './Components/locations/city-not-listed/city-not-listed.component';
 
 
 @NgModule({
@@ -27,7 +30,10 @@ import { HeaderComponent } from './Components/Shared/header/header.component';
     FooterComponent,
     SmallBlurbsComponent,
     LargeBlurbsComponent,
-    HeaderComponent
+    HeaderComponent,
+    MapComponent,
+    CitiesComponent,
+    CityNotListedComponent
   ],
   imports: [
     BrowserModule,
