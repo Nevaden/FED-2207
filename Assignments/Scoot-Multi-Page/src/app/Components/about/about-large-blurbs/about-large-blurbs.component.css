@@ -1,0 +1,179 @@
+*{
+    overflow: hidden;
+}
+
+.sectionConatiner{
+
+    position: relative;
+}
+
+.blurbCard0,.blurbCard1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.arrow0{
+    position: absolute;
+    overflow: hidden;
+    left: 38px;
+    top: 164px;
+    
+    width: 734.76px;
+    height: 137.64px;
+}
+.arrow1{
+    position: absolute;
+    left: -108px;
+    top: -7px;
+    overflow: hidden;
+}
+
+.largeGreyCircle0, .largeGreyCircle1{
+    display:none;
+}
+
+.cardImage0, .cardImage1{
+    border-radius: 50% ;
+    width: 311px;
+    margin-bottom: 56px;
+}
+
+.blurbTextContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blurbTextContainer h3{
+    width: 311px;
+    height: 64px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    /* or 100% */
+
+    text-align: center;
+    letter-spacing: -1.42857px;
+
+    color: #495567;
+    margin-bottom: 32px;
+}
+
+.blurbTextContainer p{
+    width: 311px;
+    height: 150px;
+    font-family: 'Lexend Deca';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    /* or 167% */
+
+    text-align: center;
+
+    color: #939CAA;
+    margin-bottom: 32px;
+}
+
+.blurbTextContainer button{
+    width: 180px;
+    height: 53px;
+    background: #FCB72B;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-bottom: 134px;
+    border: none;
+}
+
+@media only screen and (min-width: 767px) {
+    *{
+        overflow: hidden;
+    }
+    .largeGreyCircle0{
+        display: block;
+        height: 445px;
+        width: 445px;
+        position: absolute;
+        right: -340px;
+    }
+    .largeGreyCircle1{
+        display: block;
+        height: 445px;
+        width: 445px;
+        position: absolute;
+        left: -340px;
+    }
+
+    .cardImage0, .cardImage1{
+        height: 445px;
+        width: 445px;    
+    }
+
+    .imagesContainer0{
+        display: flex;
+        flex-direction: row-reverse;
+        position: relative;
+        width: 100vw;
+        justify-content: center;
+    }
+    .imagesContainer1{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        width: 100vw;
+        justify-content: center;
+    }
+
+    
+
+
+    .arrow0{
+        top: 300px;
+        height: 123px;
+        width: 83%;
+        left: 20%;
+        
+    }
+    .arrow1{
+        left: -110px;
+        top: 0px;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+    .blurbCard0{
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    .blurbCard1{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .arrow0{
+        top: 257px;
+        width: 59%;
+        left: 54%;
+    }
+
+    .arrow1{
+        width: 32%;
+    }
+
+
+}

@@ -1,0 +1,23 @@
+
+<section class="sectionConatiner">
+    <section *ngFor="let blurb of careerBlurbArray let i = index" >
+      <Article [class]="'blurbCard'+(i)">
+        <div class="imagesContainer">
+        <img [class]="'largeGreyCircle'+(i)" src="../../../../assets/patterns/circle.svg" alt="">
+        <img [class]="'cardImage'+(i)" src={{blurb.imgSrc}} alt="" />
+        </div>
+        <img [class]="'arrow'+(i)" src={{blurb.arrowSrc}} alt="" />
+        <div class="blurbTextContainer" >
+          <h3>{{blurb.cardTitle}}</h3>
+          <p>{{blurb.cardText}}</p>
+        </div>
+      </Article>
+    </section>
+  </section>
+
+
+
+
+
+
+
