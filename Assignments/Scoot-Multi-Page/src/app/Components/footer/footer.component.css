@@ -4,6 +4,7 @@ h2 {
     color:#FFFFFF;
     font-size: 32px;
     text-align: center;
+    overflow: visible;
 }
 
 
@@ -130,6 +131,7 @@ h2 {
         z-index: -8;
         color: #FFFFFF;
         width: 457px;
+        
     }
     .appIcons{
         margin-bottom: 50px;

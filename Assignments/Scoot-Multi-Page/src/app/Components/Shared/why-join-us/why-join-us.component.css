@@ -9,6 +9,18 @@
     display: flex;
     justify-content: center;
     margin-bottom: 64px;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    /* identical to box height, or 100% */
+
+    text-align: center;
+    letter-spacing: -1.42857px;
+
+    color: #495567;
+    overflow: visible;
 }
 .cardContainer{
     width: 100vw;

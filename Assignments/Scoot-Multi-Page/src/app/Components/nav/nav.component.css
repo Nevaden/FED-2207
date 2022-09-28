@@ -80,6 +80,17 @@
     width: 192px;
     align-self: center;
     margin-bottom: 24px;
+    border: none;
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    /* identical to box height, or 167% */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
 }
 
 img {

@@ -64,6 +64,7 @@
 
     color: #495567;
     margin-bottom: 32px;
+    overflow: visible;
 }
 
 .blurbTextContainer p{
@@ -98,6 +99,17 @@
     color: #FFFFFF;
     margin-bottom: 134px;
     border: none;
+}
+.blurbTextContainer button:hover{
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FCB72B;
+    border: 3px solid #FCB72B;
+    background-color: #FFFFFF;
 }
 
 @media only screen and (min-width: 767px) {
