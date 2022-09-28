@@ -20,6 +20,8 @@ import { CityNotListedComponent } from './Components/locations/city-not-listed/c
 import { WhyJoinUsComponent } from './Components/Shared/why-join-us/why-join-us.component';
 import { JobOpeningsComponent } from './Components/careers/job-openings/job-openings.component';
 import { AboutLargeBlurbsComponent } from './Components/about/about-large-blurbs/about-large-blurbs.component';
+import { FAQComponent } from './Components/about/faq/faq.component';
+import { AccordionComponent } from './Components/about/faq/accordion/accordion.component';
 
 
 @NgModule({
@@ -39,7 +41,9 @@ import { AboutLargeBlurbsComponent } from './Components/about/about-large-blurbs
     CityNotListedComponent,
     WhyJoinUsComponent,
     JobOpeningsComponent,
-    AboutLargeBlurbsComponent
+    AboutLargeBlurbsComponent,
+    FAQComponent,
+    AccordionComponent
   ],
   imports: [
     BrowserModule,
