@@ -133,6 +133,13 @@ h2 {
         width: 457px;
         
     }
+    .circleContainer{
+        position: absolute;
+        height: 347px;
+        width: 1153px;
+        right: -312px;
+        overflow: visible;
+    }
     .circles{
         position: absolute;
         width: 123%;

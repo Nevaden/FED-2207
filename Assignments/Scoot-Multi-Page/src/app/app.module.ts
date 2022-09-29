@@ -22,7 +22,8 @@ import { JobOpeningsComponent } from './Components/careers/job-openings/job-open
 import { AboutLargeBlurbsComponent } from './Components/about/about-large-blurbs/about-large-blurbs.component';
 import { FAQComponent } from './Components/about/faq/faq.component';
 import { AccordionComponent } from './Components/about/faq/accordion/accordion.component';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CdkAccordionModule } from '@angular/cdk/accordion'
 
 @NgModule({
   declarations: [
@@ -49,6 +50,8 @@ import { AccordionComponent } from './Components/about/faq/accordion/accordion.c
     BrowserModule,
     AppRoutingModule,
     NgbModule,
+    BrowserAnimationsModule,
+    CdkAccordionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
