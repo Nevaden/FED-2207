@@ -191,4 +191,11 @@ img {
         color: #FCB72B;
     }
 
+    .bigNavItem:hover{
+        color: #FCB72B;
+    }
+    .active {
+        color: #FCB72B;
+    }
+
   }
