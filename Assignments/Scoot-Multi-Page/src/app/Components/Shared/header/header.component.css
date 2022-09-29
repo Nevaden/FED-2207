@@ -6,6 +6,7 @@ section{
     margin-top: 64px;
 }
 h2{
+    cursor: context-menu;
     font-family: 'Space Mono';
     font-style: normal;
     font-weight: 700;
