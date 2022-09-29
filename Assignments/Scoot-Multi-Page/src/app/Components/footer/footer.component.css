@@ -133,6 +133,21 @@ h2 {
         width: 457px;
         
     }
+    .circles{
+        position: absolute;
+        width: 123%;
+        height: 345px;
+        left: -14%;
+        bottom: -183px;
+        mix-blend-mode: normal;
+        opacity: 0.1;
+        overflow-y: hidden;
+        transform: none;
+    }
+    .circles2{
+        display: none;
+    }
+
     .appIcons{
         margin-bottom: 50px;
         margin-top: 40px;
@@ -180,6 +195,26 @@ h2 {
         margin-top: 0;
         margin-left: 165px;
         text-align: left;
+    }
+    .circleContainer{
+        position: absolute;
+        height: 347px;
+        width: 1153px;
+        right: -312px;
+        overflow: visible;
+        /* overflow: hidden; */
+    }
+    .circles{
+        position: absolute;
+        width: 1153px;
+        height: 347px;
+        /* left: -14%; */
+        right:0px;
+        bottom: -183px;
+        mix-blend-mode: normal;
+        opacity: 0.1;
+        overflow-y: hidden;
+        transform: none;
     }
 
     .appIcons{
