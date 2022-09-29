@@ -11,12 +11,11 @@ export class AccordionComponent implements OnInit {
   AccordionArticles = accordianFAQS;
   expandedIndex = 0;
   cheveronLocked = '';
+
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.AccordionArticles, "full object")
-    console.log(this.AccordionArticles[0],"1st")
-    console.log(this.AccordionArticles[1],"2nd")
+
   }
 
 
