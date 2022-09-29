@@ -32,9 +32,9 @@
 
 
 .AccordionArticle{
-    width: 100%;
+
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .AccordionArticle h3 {
   
@@ -176,5 +176,8 @@
 @media only screen and (min-width: 1199px) {
   .AccordionArticle{
     margin-bottom: 32px;
+  }
+  .AccordionArticle h3{
+    margin-top: 0px;
   }
 }
