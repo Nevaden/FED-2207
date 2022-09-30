@@ -113,6 +113,9 @@ h2 {
 }
 
 @media only screen and (min-width: 767px) {
+    .active {
+        color: #FCB72B;
+    }
     .appStoreSignUp{
         height: 300px;
         display: flex;
@@ -192,6 +195,14 @@ h2 {
 }
 
 @media only screen and (min-width: 1200px) {
+    .navLinks .navLink:hover{
+        cursor: pointer;
+        color: #FCB72B;;
+    }
+    .socicalsContainer img:hover{
+        filter: brightness(0) invert(1);
+        cursor: pointer;
+    }
     .appIcons img{
         cursor: pointer;
     }

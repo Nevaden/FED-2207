@@ -20,14 +20,14 @@
     <!-- <img src="../../../assets/logo.svg" alt="logo"/> -->
     </div>
     <div class="navLinks">
-      <a class="navLink" routerLink="/about">About</a>
-      <a class="navLink" routerLink="/locations">Location</a>
-      <a class="navLink" routerLink="/about">Careers</a>
+      <a class="navLink" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/about">About</a>
+      <a class="navLink" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/locations">Location</a>
+      <a class="navLink" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" routerLink="/careers">Careers</a>
     </div>
 
     <div class="socicalsContainer">
       <img class="socialFacebook" src="../../../assets/icons/facebook.svg" alt="Facebook Logo" />
-      <img  class="socialTwitter" src="../../../assets/icons/twitter.svg" alt="Twitter Logo" />
+      <img class="socialTwitter" src="../../../assets/icons/twitter.svg" alt="Twitter Logo" />
       <img class="socialInstagram" src="../../../assets/icons/instagram.svg" alt="Instagram Logo" />
     </div>
   </section>
