@@ -246,7 +246,7 @@ p{
         bottom: 196px;
     }
     .blurbText button:hover{
-        background-color: #FFFFFF;
+        background: none;
         color:#FCB72B;
         border: 3px solid #FCB72B;
     }

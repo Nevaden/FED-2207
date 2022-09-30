@@ -137,6 +137,6 @@
     .jobCard button:hover{
         color: #FCB72B;
         border: 3px solid #FCB72B;
-        background-color: #FFFFFF;
+        background: none;
     }
 }
